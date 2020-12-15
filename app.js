@@ -10,6 +10,10 @@ app.use(logger('dev'));
 // route handlers
 app.get('/', (req, res) => {
   res.json({message: "Hello testing"})
+});
+
+app.post('/', (req, res) => {
+  res.send('POST route')
 })
 // server
 module.exports = app;
