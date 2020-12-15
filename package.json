@@ -1,0 +1,30 @@
+{
+  "name": "trevis-ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShowBaba/trevis-ci-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "chai-http": "^4.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ShowBaba/trevis-ci-test/issues"
+  },
+  "homepage": "https://github.com/ShowBaba/trevis-ci-test#readme"
+}
