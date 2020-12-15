@@ -13,7 +13,11 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-  res.send('POST route')
-})
+  res.send('POST route');
+});
+
+app.put('/', (req, res) => {
+  res.send('PUT route');
+});
 // server
 module.exports = app;
